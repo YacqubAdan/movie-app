@@ -1,10 +1,12 @@
 import "./App.css";
 import Row from "./components/Row";
+import Banner from "./components/Banner";
 import requests from "./api/requests";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-zinc-900">
+      <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchURL={requests.fetchNetflixOriginals}
@@ -15,7 +17,7 @@ function App() {
       <Row title="Action Movies" fetchURL={requests.fetchActionMovies} />
       <Row title="Comedy Movies" fetchURL={requests.fetchComedyMovies} />
       <Row title="Horror Movies" fetchURL={requests.fetchHorrorMovies} />
-      <Row title="Romancce Movies" fetchURL={requests.fetchRomanceMovies} />
+      <Row title="Romance Movies" fetchURL={requests.fetchRomanceMovies} />
       <Row title="Documentaries" fetchURL={requests.fetchDocumentaries} />
     </div>
   );
