@@ -3,7 +3,13 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        88: "22rem",
+        128: "32rem",
+        140: "45rem",
+      },
+    },
   },
   plugins: [
     plugin(function ({ addUtilities }) {
