@@ -15,12 +15,10 @@ function Row({ title, fetchURL, isLargeRow }) {
     fetchData();
   }, [fetchURL]);
 
-  console.log(movies);
-
   return (
     <div className="row">
       {/* title */}
-      <h2 className="text-2xl">{title}</h2>
+      <h2 className="text-2xl text-white text-left ml-4">{title}</h2>
 
       <div className="flex overflow-y-hidden overflow-x-scroll p-5 no-scrollbar">
         {/* container -> posters */}
