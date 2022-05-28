@@ -4,7 +4,7 @@
   <h3 align="center">Movie App!</h3>
   <p align="center">
     Netflix clone using Movie Database API
-    <a href="">View Demo</a>
+    <a href="https://yacquub-movie-app.netlify.app/">View Demo</a>
   </p>
 </div>
 
@@ -51,10 +51,6 @@ Below is instructions on how to install the application on your device and get i
 3. Install NPM packages
    ```sh
    npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
    ```
 
 <!-- USAGE EXAMPLES -->
